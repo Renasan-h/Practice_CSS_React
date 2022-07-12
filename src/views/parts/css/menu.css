@@ -1,0 +1,32 @@
+/* menu.html */
+.menu-item {
+  display: flex;
+  border-bottom: 1px dashed #dec2c7;
+  padding: 20px 8px;
+}
+
+.menu-photo {
+  margin-right: 16px;
+  flex: 0 0 336px;
+}
+
+.menu-text {
+  flex: 0 0 336px;
+}
+
+/* css for smart phone */
+@media (max-width: 767px){
+  /* menu.html - cancel flex */
+  .menu-item {
+    display: block;
+  }
+
+  .menu-photo {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .menu-text {
+    width: 100%;
+  }
+}

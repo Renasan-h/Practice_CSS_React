@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+/* use page font setting */
+html {
+  font-family: sans-serif;
+}
+
+/* box model setting */
+html * {
+  box-sizing: border-box;
+}
+
+/* body style setting */
+body {
+  margin: 0 0 0 0;
+  background-color: #eeece9;
+}
+
+/* tag style setting */
+h2 {
+  margin: 20px 0px 20px 0px;
+  padding: 5px;
+  color: #3f5170;
+  font-size: 22px;
+  border-bottom: 3px dotted #3f5170;
+}
+
+.clear {
+  clear: both;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* css for smart phone */
+@media (max-width: 767px){
+  /* All - Navigation */
+  .wrapper {
+    margin: 0 6px;
+  }
+}

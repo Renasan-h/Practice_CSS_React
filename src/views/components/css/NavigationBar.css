@@ -1,0 +1,56 @@
+.nav li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+.nav ul {
+  margin: 0 0 0 0;
+  padding: 20px 10px 15px 20px;
+  background-image: url(/src/img/menu-bg.png);
+  background-repeat:  repeat-x;
+}
+
+.nav a:link {
+  color: #3c454d;
+  text-decoration: none;
+}
+
+.nav a:visited {
+  color: #3c454d;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #7b8dac;
+  text-decoration: none;
+}
+
+.nav a:link {
+  color: #5a9bc0;
+  text-decoration: none;
+}
+
+/* css for smart phone */
+@media (max-width: 767px){
+  /* All - Navigation */
+  .wrapper {
+    margin: 0 6px;
+  }
+
+  .logo {
+    margin: 30px 0;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .nav {
+    background-color: #dfddda;
+  }
+
+  .nav li {
+    display: block;
+  }
+}

@@ -1,0 +1,42 @@
+.shop-photo {
+  float: left;
+  padding: 0 1em 1em 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.main {
+  text-align: left;
+}
+
+.shop-text {
+
+  text-align: left;}
+
+/* Table */
+.info {
+  border-collapse: collapse;
+}
+
+.info th, .info td {
+  padding: 8px;
+  border: 1px solid #bec2c7;
+  text-align: left;
+}
+
+.info th {
+  background-color: #dde2ea;
+  width: 90px;
+  color: #3f5170;
+  vertical-align: top;
+}
+
+/* css for smart phone */
+@media (max-width: 767px){
+  /* about.html - cancel padding-right */
+  .shop-photo {
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,44 @@
+/* contact.html*/
+form div {
+  padding: 12px;
+  border-bottom: 1px dashed #bec2c7;
+}
+
+select {
+  width: 30em;
+}
+
+input [name="subject"] {
+  width: 30em;
+}
+
+textarea {
+  width: 30em;
+  height: 6em;
+}
+
+input [type="submit"] {
+  margin: 20px 0;
+  width: 30em;
+}
+
+/* css for smart phone */
+@media (max-width: 767px){
+  /* contact.html - form style*/
+  select {
+    width: 100%;
+  }
+
+  input [name="subject"] {
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  input [type="submit"] {
+    margin: 20px 0;
+    width: 100%;
+  }
+}
